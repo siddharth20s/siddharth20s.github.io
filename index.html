@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sid's News Blog</title>
+    <style>
+
+body {
+  overflow-y: scroll;
+}
+
+nav {
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+  border-radius: 10px;
+  width: 100%;
+  padding: 2px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li a {
+  color: #fff;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #444;
+}
+.container {
+        display: flex;
+        padding: 5px;
+        background-color: rgba(211, 211, 211, 0.041);
+        height: fit-content;
+        width: fit-content;
+      }
+
+      .left-section {
+        width: fit-content;
+        height: fit-content;
+        background-color: rgba(255, 255, 255, 0);
+        text-align: left;
+      }
+
+      .right-section {
+        width: fit-content;
+        height: fit-content;
+        background-color: rgba(255, 255, 255, 0);
+        text-align: left;
+      }
+    </style>
+
+
+  </head>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#section-1">Live News</a></li>
+      <li><a href="#section-2">Sports</a></li>
+      <li><a href="#section-3">Latest news</a></li>
+      <li><a href="#section-4">About Us</a></li>
+    </ul>
+  </nav>  
+  <br>
+  <body style="font-family: Arial, sans-serif;"background="bgnews.jpg">
+    <header style="background-color: rgba(0, 0, 0, 0.475); padding: 20px; text-align: center; border-radius: 10px;">
+      <h1 style="margin: 0; color: aliceblue;">Sid's News Blog</h1>
+    </header>
+    <main style="margin: 50px;">
+      <center><caption ><h2 style="background-color: rgba(0, 0, 0, 0.434); font-size: x-large; border: 10px;color: rgb(255, 255, 255);text-align: center; padding: 30px; border-radius: 200px;width: fit-content;">Breaking news</h2></caption></center>
+      <audio autoplay loop>
+        <source src="images/news.mp3" type="audio/mp3">
+      </audio>
+      <center>
+
+        <div class="container" style="align-items: center;">
+            <div class="left-section"  >
+                <h3 id="section-1" style="text-align: center; background-color: #000000; width: fit-content; border-radius: 5px; color: #fff;padding: 5px;" >National news</h3>
+                <iframe  width="560" height="315" style="padding: 10px; background-color: #ffffff04;" src="https://www.youtube.com/embed/uPcyugVbCDU?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="right-section">
+                <h3 style="text-align: center; background-color: #000000; width: fit-content; border-radius: 5px; color: #fff;padding: 5px;">International news</h3>
+                <iframe  width="560" height="315"  style="padding: 10px;" src="https://www.youtube.com/embed/AEZa1BtbPok?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+
+      </center>
+      <br>
+      <marquee style="background-color: rgb(255, 0, 51); height:fit-content;padding: 10px; font-weight: bold; padding-top: 10px;"> Turkey Earthquake LIVE: Four dead in 5.4-magnitude Indonesia quake... Disney lays off 7,000 people as streaming subscribers decline</marquee>
+      <center>
+       <h2 id= "section-3" style="margin-top: 40px;background-color: rgb(0, 0, 0); font-size: x-large; border: 10px;color: rgb(255, 255, 255);text-align: center; padding: 30px; border-radius: 200px;width:max-content;" >Latest News</h2>
+      </center>
+
+      <section style="margin-top: 40px; border:1px solid black; border-radius: 10px; border-width: 5px; padding: 10px; background-color: rgb(255, 255, 255);">
+        <h3>The New Password Sharing Rules On Netflix Are A Mess</h3>
+        <img src="images/news1.jpg" style="float: left; margin-right: 20px; width: 300px; height: 200px;">
+        <p style="font-size: 18px;">The company rolled out new rules requiring users to periodically verify their devices on their home Wi-Fi network. Naturally, this rule presents an issue for users who regularly travel for work or students who dorm on campus. However, Netflix has already rolled back a few restrictions that sparked the most significant outrage. 
+            According to Gizmodo, the original guidelines specifically required users to verify their account on their home Wi-Fi every 31 days. In addition, anyone who couldn’t connect to their home Wi-Fi within one month could no longer access their accounts. Netflix quickly rolled back the one-month restriction. Now, the new guidelines clarify that users will only have to verify devices when signing in outside the home network. Users will then have 15 minutes to enter a provided code to continue using said device. </p>
+      </section>
+      <section style="margin-top: 50px;background-color: rgb(255, 255, 255); border:1px solid black; border-radius: 10px; border-width: 5px; padding: 10px;">
+        <h3>Is Remote Work Here To Stay?</h3>
+        <img src="images/news2.jpg" style="float: left; margin-right: 20px; width: 300px; height: 200px;">
+        <p style="font-size: 18px;">According to Fortune, CEOs from all corners of the private sector tried to get their employees back in the office in 2022. In September, Apple CEO Tim Cook ordered corporate employees back to the office three days a week. The decision sparked Apple staffers to petition for a more flexible hybrid schedule. Facebook parent company Meta also plans to cut costs by shutting down offices in 2023. The Wall Street Journal reports CEO Mark Zuckerberg has embraced remote work from his Hawaii compound. Most employees have returned to a hybrid model but can apply for fully remote depending on their job.
+Elsewhere in the big tech world, Google’s parent company, Alphabet, ordered employees back to in-person work three times a week. CEO Sundar Pichai says a three-day in-person, two-day remote workweek offers a good “balance” for employees, Business Insider reports.</p>
+      </section>
+      <section style="margin-top: 50px; background-color: rgb(255, 255, 255); border:1px solid black; border-radius: 10px; border-width: 5px; padding: 10px;">
+        <h3>Mercedes Brings First Level 3 Self-Driving Car To US</h3>
+        <img src="images/news3.jpg" style="float: left; margin-right: 20px; width: 300px; height: 200px;">
+        <p style="font-size: 18px;">You read that correctly. Though Tesla is more commonly associated with self-driving vehicles, they only provide level 2 automation in the US. SAE International, formally known as the Society of Automotive Engineers, defines the different levels of driving automation in vehicles. Level 2 automation, which is commonly found in Teslas, provides automated driver support for steering, braking, and acceleration. However, the driver remains in control of the vehicle and must “constantly supervise” the car as it drives. Failure to remain in control of the vehicle can result in tragedies like the San Francisco pile-up mentioned earlier. Level 3 automation allows the vehicle to operate autonomously. Meaning the driver can enjoy themselves as a passenger. However, they must remain alert if the vehicle requests the driver take over once again. According to AutoInsurance.Org, “robotaxis,” or fully-autonomous vehicles that operate without a driver present, fall into a legal gray area. These completely driverless vehicles operate in certain areas of Texas and Arizona and are difficult to come across. Footage of a robotaxi operating in a bike lane in Austin, Texas, raised further concerns for fully autonomous vehicles.</p>
+      </section>
+      <br><br>
+     
+      
+      <center> <h2 id="section-2" style="background-color: rgba(0, 0, 0, 0.653);  text-align: center; font-size: x-large; border: 10px;color: rgb(255, 255, 255);text-align: center; padding: 30px; border-radius: 20px;width: fit-content;" >Sports news</h2> </center>
+
+      
+      <div class="container">
+       
+
+        <div class="left-section" style="float: left;  width: 48%; margin-top: 50px; background-color: rgb(255, 255, 255); border:1px solid black; border-radius: 10px; border-width: 5px; padding: 10px; padding-left: 15px;">
+          <h3>IND vs AUS: Sachin Tendulkar lauds India’s ‘RRR’ in 1st Test at Nagpur</h3>
+          <img src="images/sports.jpg" style="float: left; margin-right: 20px; width: 300px; height: 200px;">
+          <p style="font-size: 18px;">IND vs AUS: Indian spinners ruled the roost in the opening test in Nagpur but the pitch was certainly not “unplayable”, Australia captain Pat Cummins said after their comprehensive defeat in the series opener on Saturday.
+      
+            Indian spinners claimed 16 of the 20 Australian wickets on a pitch at the Vidarbha Cricket Association Stadium where the ball kept low and spun unpredictably.
+            
+            Cummins won an important toss but Australia could not quite vindicate his decision to bat, managing a below-par 177 in their first innings.</p>
+        </div>
+
+
+        <div class="right-section" style="float: right; width: 48%; margin-top: 50px; background-color: rgb(255, 255, 255); border:1px solid black; border-radius: 10px; border-width: 5px; padding: 10px;">
+          <h3>ICC Women's T20 World Cup: India begin campaign against Pakistan, hope to tick right boxes</h3>
+          <img src="images/wcric.jpg" style="float: left; margin-right: 20px; width: 300px; height: 200px;">
+          <p style="font-size: 18px;">Drawing inspiration from past masters, mentors or heroes is nothing new. But an outfit Harmanpreet Kaur and her team should seek motivation from is the India women's U-19 team, who are the freshly crowned world T20 champions.
+The Shafali Verma-led side won the inaugural edition in Potchefstroom last month and the senior side, which is chasing an elusive ICC Trophy, will open their Women's T20 World Cup campaign at the other end of South Africa, in Cape Town on Sunday.</p>
+        </div>
+
+      </div>
+      
+      <br><br>
+      <br><br>
+      <div  style="background-color: #537ae3ab; padding: 20px; border: 5px solid #000000;border-radius: 30px;">
+        <h2 id="section-4" style="font-weight: bold;">Author:</h2>
+        <img src="images/sid.jpg" alt="Author Name" style="float: left; margin-right: 20px; border-radius: 50%; width: 100px; height: 100px;">
+        <h3 style="margin-top: 0;">Siddharth Rajendran</h3>
+        <p style="font-style: italic;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p style="margin-top: 20px;">Follow the author on:
+          <a href="https://twitter.com/Sid_20s" style="margin-right: 10px;">Twitter</a>
+          <a href="https://www.instagram.com/sid_20s/">instagram</a>
+        </p>
+      </div>
+    </main>
+  </body>
+  <footer style="background-color: aliceblue;"> <marquee>&copy; Copyright 2023</marquee></footer>
+</html>
